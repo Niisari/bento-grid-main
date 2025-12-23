@@ -251,6 +251,54 @@ h2 {
     width: 70%;
 }
 
+/* Portrait - Landscape Tablets*/
+@media only screen and (min-width: 768px) {
+    .bento__grid--container {
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: minmax(50px, auto);
+
+        grid-template-areas: 
+            "card-one card-one card-one card-one"
+            "card-two card-two card-three card-three"
+            "card-four card-four card-five card-five"
+            "card-six card-six card-seven card-seven"
+            "card-eight card-eight card-eight card-eight";
+    }
+
+    .bento__grid--cardOne {
+        grid-area: card-one;
+    }
+
+    .bento__grid--cardTwo {
+        grid-area: card-two;
+    }
+
+    .bento__grid--cardThree {
+        grid-area: card-three;
+    }
+
+    .bento__grid--cardFour {
+        grid-area: card-four;
+    }
+
+    .bento__grid--cardFive {
+        grid-area: card-five;
+    }
+
+    .bento__grid--cardSix {
+        grid-area: card-six;
+    }
+
+    .bento__grid--cardSeven {
+        grid-area: card-seven;
+    }
+
+    .bento__grid--cardEight {
+        grid-area: card-eight;
+    }
+}
+
+/* Laptop - Desktop */
 @media only screen and (min-width: 992px) {
     .bento__grid--container {
         grid-template-columns: repeat(4, 1fr);
