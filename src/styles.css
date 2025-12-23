@@ -302,13 +302,15 @@ h2 {
 @media only screen and (min-width: 992px) {
     .bento__grid--container {
         grid-template-columns: repeat(4, 1fr);
-        grid-auto-rows: minmax(50px, auto);
+        grid-auto-rows: auto;
 
         grid-template-areas: 
         "card-seven card-one card-one card-four"
-        "card-seven card-one card-one card-four"
+        "card-seven card-two card-three card-four"
         "card-eight card-two card-three card-four"
         "card-eight card-six card-five card-five";
+
+        padding: 4rem 8rem;
     }
 
     .bento__grid--cardOne {
@@ -320,12 +322,20 @@ h2 {
         font-size: 3.5rem;
     }
 
+    .margin-right {
+        margin: 0;
+    }
+
     .bento__grid--cardTwo {
         grid-area: card-two;
+
+        padding: 2rem;
     }
 
     .cardTwo__title {
         font-size: 2.25rem;
+
+        margin-top: 2rem;
     }
 
     .bento__grid--cardThree {
@@ -333,7 +343,7 @@ h2 {
     }
 
     .cardThree__title {
-        font-size: 2rem;
+        font-size: 2.25rem;
     }
 
     .bento__grid--cardFour {
@@ -361,10 +371,12 @@ h2 {
         display: flex;
         flex-direction: row;
         grid-area: card-five;
+
+        padding: 1rem;
     }
 
     .grow__image--cardFive {
-        width: 45%;
+        width: 50%;
     }
 
     .bento__grid--cardSix {
@@ -392,6 +404,7 @@ h2 {
 
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
 
     .cardSeven__title {
@@ -411,8 +424,8 @@ h2 {
     }
 
     .cardEight__title {
-        font-size: 3rem;
-        margin: 1rem 0 4.5rem 0;
+        font-size: 2.5rem;
+        margin: 1rem 0 4rem 0;
     }
 
     .ai__image--cardEight {
