@@ -54,6 +54,12 @@ img {
     max-width: 100%;
 }
 
+h1,
+h2 {
+    font-weight: 500;
+    line-height: 1;
+}
+
 .italic {
     font-family: 'DMSans-MediumItalic', sans-serif;
     font-style: italic;
@@ -66,6 +72,10 @@ img {
 
 .margin-right {
     margin-right: 1rem;
+}
+
+.margin-right--medium {
+    margin-right: 2rem;
 }
 
 /* Mobile Layout */
@@ -89,7 +99,6 @@ img {
     color: var(--white);
     font-family: 'DMSans-Medium', sans-serif;
     font-size: 2.5rem;
-    font-weight: 500;;
 
     margin-bottom: 1rem;
 }
@@ -108,13 +117,30 @@ img {
 
 .cardTwo__title {
     color: var(--black);
-    font-family: 'DMSans-Medium';
+    font-family: 'DMSans-Medium', sans-serif;
 
     margin-top: 0.5rem;
 }
 
 /* Card Three */
+.bento__grid--cardThree {
+    background-color: var(--yellow-500);
+    border-radius: 0.5rem;
 
+    position: relative;
+    padding: 1rem 1rem 0 1rem;
+}
 
+.cardThree__title {
+    color: var(--black);
+    font-family: 'DMSans-Medium';
+
+    margin-bottom: 1rem;
+}
+
+.consistentSchedule__image--cardThree {
+    width: 70%;
+    margin-bottom: -0.25rem;
+}
 
 
