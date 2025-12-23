@@ -7,7 +7,7 @@
 /* Static Fonts */
 @font-face {
     font-family: 'DMSans-Regular', sans-serif;
-    font-weight: normal;
+    font-weight: 400;
     font-style: normal;
     font-display: swap;
     src: url('../assets/fonts/static/DMSans-Regular.ttf') format('truetype');
@@ -15,7 +15,7 @@
 
 @font-face {
     font-family: 'DMSans-Medium', sans-serif;
-    font-weight: normal;
+    font-weight: 500;
     font-style: normal;
     font-display: swap;
     src: url('../assets/fonts/static/DMSans-Medium.ttf') format('truetype');
@@ -23,8 +23,8 @@
 
 @font-face {
     font-family: 'DMSans-MediumItalic', sans-serif;
-    font-weight: normal;
-    font-style: normal;
+    font-weight: 500;
+    font-style: italic;
     font-display: swap;
     src: url('../assets/fonts/static/DMSans-MediumItalic.ttf') format('truetype');
 }
@@ -49,3 +49,54 @@ body {
 p {
     font-size: 1.125rem;
 }
+
+img {
+    max-width: 100%;
+}
+
+.italic {
+    font-family: 'DMSans-MediumItalic', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.yellow {
+    color: var(--yellow-500);
+}
+
+.margin-right {
+    margin-right: 1rem;
+}
+
+/* Mobile Layout */
+.bento__grid--container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    
+    gap: 1.5rem;
+    padding: 1rem;
+}
+/* Card One */
+.bento__grid--cardOne {
+    background-color: var(--purple-500);
+    border-radius: 0.5rem;
+    padding: 2rem;
+
+    text-align: center;
+}
+
+.cardOne__title {
+    color: var(--white);
+    font-family: 'DMSans-Medium', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;;
+
+    margin-bottom: 1rem;
+}
+
+.cardOne__text {
+    color: var(--purple-100);
+}
+
+
+
