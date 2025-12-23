@@ -204,4 +204,29 @@ h2 {
     width: 50%;
 }
 
+/* Card Six */
+.bento__grid--cardSix {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+}
+
+.cardSix__title {
+    color: var(--black);
+    font-family: 'DMSans-Medium', sans-serif;
+    font-size: 2.5rem;
+
+    margin-bottom: 1rem;
+}
+
+.cardSix__text {
+    color: var(--black);
+
+    margin-bottom: 1rem;
+}
+
+.audience__image--cardSix {
+    width: 50%;
+}
+
 
