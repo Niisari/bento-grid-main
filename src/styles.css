@@ -250,4 +250,24 @@ h2 {
     width: 50%;
 }
 
+/* Card Eight */
+.bento__grid--cardEight {
+    background-color: var(--yellow-500);
+    border-radius: 0.5rem;
+
+    padding: 1.25rem 1rem 1.125rem 1rem;
+}
+
+.cardEight__title {
+    color: var(--black);
+    font-family: 'DMSans-Medium', sans-serif;
+    font-size: 1.75rem;
+
+    margin-bottom: 1rem;
+}
+
+.ai__image--cardEight {
+    width: 70%;
+}
+
 
