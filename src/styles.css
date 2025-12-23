@@ -1,0 +1,51 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Static Fonts */
+@font-face {
+    font-family: 'DMSans-Regular', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    src: url('../assets/fonts/static/DMSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'DMSans-Medium', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    src: url('../assets/fonts/static/DMSans-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'DMSans-MediumItalic', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    src: url('../assets/fonts/static/DMSans-MediumItalic.ttf') format('truetype');
+}
+/* Custom Colors*/
+:root {
+    --purple-100: hsl(254, 88%, 90%);
+    --purple-500: hsl(256, 67%, 59%);
+
+    --yellow-100: hsl(31, 66%, 93%);
+    --yellow-500: hsl(39, 100%, 71%);
+
+    --white: hsl(0, 0%, 100%);
+    --black: hsl(0, 0%, 7%);
+}
+
+/* General Typography */
+
+body {
+    font-family: 'DMSans-Regular', sans-serif;
+}
+
+p {
+    font-size: 1.125rem;
+}
