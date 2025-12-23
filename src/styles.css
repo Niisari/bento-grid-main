@@ -98,5 +98,23 @@ img {
     color: var(--purple-100);
 }
 
+/* Card Two */
+.bento__grid--cardTwo {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+
+    padding: 1.5rem;
+}
+
+.cardTwo__title {
+    color: var(--black);
+    font-family: 'DMSans-Medium';
+
+    margin-top: 0.5rem;
+}
+
+/* Card Three */
+
+
 
 
