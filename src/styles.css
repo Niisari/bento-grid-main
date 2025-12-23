@@ -74,15 +74,6 @@ h2 {
     margin-right: 1rem;
 }
 
-.margin-left--small {
-    margin-left: 0.5rem;
-}
-
-.margin-left {
-    margin-left: 1rem;
-}
-
-
 .span__italic--purple {
     color: var(--purple-500);
     font-style: italic;
@@ -251,8 +242,8 @@ h2 {
 .cardEight__title {
     color: var(--black);
     font-family: 'DMSans-Medium', sans-serif;
-    font-size: 1.75rem;
 
+    width: 80%;
     margin-bottom: 1rem;
 }
 
