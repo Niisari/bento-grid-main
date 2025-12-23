@@ -78,6 +78,14 @@ h2 {
     margin-right: 2rem;
 }
 
+.margin-left {
+    margin-left: 1rem;
+}
+
+.padding-right--left {
+    padding: 0 2rem 0 2rem;
+}
+
 /* Mobile Layout */
 .bento__grid--container {
     display: grid;
@@ -133,7 +141,7 @@ h2 {
 
 .cardThree__title {
     color: var(--black);
-    font-family: 'DMSans-Medium';
+    font-family: 'DMsans-Medium';
 
     margin-bottom: 1rem;
 }
@@ -141,6 +149,27 @@ h2 {
 .consistentSchedule__image--cardThree {
     width: 70%;
     margin-bottom: -0.25rem;
+}
+
+/* Card Four */
+.bento__grid--cardFour {
+    background-color: var(--purple-100);
+    border-radius: 0.5rem;
+
+    text-align: center;
+    padding: 1.5rem 1rem;
+}
+
+.cardFour__title {
+    color: var(--black);
+
+    margin-bottom: 1rem;
+}
+
+.cardFour__text {
+    color: var(--black);
+
+    margin-top: 1rem;
 }
 
 
