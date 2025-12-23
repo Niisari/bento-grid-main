@@ -251,4 +251,7 @@ h2 {
     width: 70%;
 }
 
+/* Portrait Tablet Layout */
+@media only screen and (min-width: 768px) {
 
+}
