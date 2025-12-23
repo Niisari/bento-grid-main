@@ -78,12 +78,20 @@ h2 {
     margin-right: 2rem;
 }
 
+.margin-left--small {
+    margin-left: 0.5rem;
+}
+
 .margin-left {
     margin-left: 1rem;
 }
 
 .padding-right--left {
     padding: 0 2rem 0 2rem;
+}
+
+.text__align--center {
+    padding: 0 2.2rem 0 2.2rem;
 }
 
 /* Mobile Layout */
@@ -170,6 +178,30 @@ h2 {
     color: var(--black);
 
     margin-top: 1rem;
+}
+
+/* Card Five */
+.bento__grid--cardFive {
+    background-color: var(--purple-500);
+    border-radius: 0.5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1.25rem 0 1.25rem 0;
+}
+
+.grow__image--cardFive {
+    width: 70%;
+}
+
+.cardFive__title {
+    color: var(--white);
+
+    margin-top: 1.5rem;
+    width: 50%;
 }
 
 
